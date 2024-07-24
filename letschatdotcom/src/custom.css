@@ -1,0 +1,56 @@
+/* Custom styles for the emoji picker */
+.emoji-picker-react {
+    background-color: #f0f0f0; /* Change background color */
+    border: 1px solid #ccc; /* Change border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.emoji-picker-react .emoji-group {
+    margin-bottom: 10px; /* Add margin between groups */
+}
+
+.emoji-picker-react .emoji-category {
+    font-weight: bold; /* Bold category labels */
+    color: #333; /* Change text color */
+}
+
+.emoji-picker-react .emoji-mart-emoji {
+    width: 28px; /* Adjust emoji size */
+    height: 28px; /* Adjust emoji size */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* .example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    /* -ms-overflow-style: none;  IE and Edge */
+    /* scrollbar-width: none;  Firefox */
+  }
+   
+  /* Custom scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .example::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+  
+  .example::-webkit-scrollbar-thumb {
+    background: #000000;
+    /* border-radius: 6px; */
+  }
+  
+  .example::-webkit-scrollbar-thumb:hover {
+    background: #2e1010;
+  }
+  
+  /* Custom scrollbar for Firefox */
+  .example {
+    scrollbar-width: thin;
+    scrollbar-color: #000000 #f1f1f100;
+  }
+  
